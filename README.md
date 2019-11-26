@@ -1,5 +1,5 @@
 # hc_sr04_activated_28byj_48
-Activates 2BYJ-48 stepper motor with ULN2003A driver board module using an HC-SR04 ultrasonic distance sensor. 
+Activates 28BYJ-48 stepper motor with ULN2003A driver board module using an HC-SR04 ultrasonic distance sensor. 
 
 I use the stepper motor with a metal arm attached to press a button on a smoke machine when someone is detected by the HC-SR04 sensor.
 
