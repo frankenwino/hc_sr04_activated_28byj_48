@@ -12,7 +12,7 @@ I use the stepper motor with a metal arm attached to press a button on a smoke m
    - "-" to a GND/Ground pin
    - "+" to a 5V pin
 
-* *Hint: run **pinout** at the terminal to get a graphical representation of the Pi's GPIO pin numbering layout.* *
+Hint: run **pinout** at the terminal to get a graphical representation of the Pi's GPIO pin numbering layout.
 
 ## Connecting HC-SR04 to the Raspberry Pi
 1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows:
