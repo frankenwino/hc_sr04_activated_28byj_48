@@ -1,6 +1,8 @@
 # hc_sr04_activated_28byj_48
 Activates 2BYJ-48 stepper motor using HR-S04 ultrasonic distance sensor.
 
+Connecting HC-SR04 to the Raspberry Pi
+
 1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows:
     Red; Vcc, Blue; GPIO_TRIGGER, Yellow; GPIO_ECHO and Black; GND.
 2. Plug Vcc into the positive rail of your breadboard, and plug GND into your negative rail.
