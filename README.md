@@ -3,23 +3,23 @@ Activates 2BYJ-48 stepper motor with ULN2003A driver board module using an HR-SR
 
 I use the stepper motor with a metal arm attached to press a button on a smoke machine when someone is detected by the HR-SR04 sensor.
 
-## Connecting the 28BJY-48 motor with ULN2003A driver moudle to the Raspberry Pi
-On the ULN2003A board, connect:
-- IN1 to GPIO 6
-- IN2 to GPIO 13
-- IN3 to GPIO 19
-- IN4 to GPIO 26
-- "-" to a GND/Ground pin
-- "+" to a 5V pin
+## Connecting the 28BJY-48 motor with ULN2003A to the Raspberry Pi
+1. On the ULN2003A board, connect:
+   - IN1 to GPIO 6
+   - IN2 to GPIO 13
+   - IN3 to GPIO 19
+   - IN4 to GPIO 26
+   - "-" to a GND/Ground pin
+   - "+" to a 5V pin
 
 * *Hint: run **pinout** at the terminal to get a graphical representation of the Pi's GPIO pin numbering layout.* *
 
 ## Connecting HC-SR04 to the Raspberry Pi
 1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows:
-     - Red -> Vcc
-     - Blue -> Trig
-     - Yellow -> Echo
-     - Black -> Gnd
+   - Red -> Vcc
+   - Blue -> Trig
+   - Yellow -> Echo
+   - Black -> Gnd
 
 2. Plug **Vcc** into the positive rail of your breadboard, and plug GND into your negative rail.
 
