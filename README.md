@@ -1,5 +1,5 @@
 # hc_sr04_activated_28byj_48
-Activates 2BYJ-48 stepper motor with ULN2003 module using an HR-S04 ultrasonic distance sensor.
+Activates 2BYJ-48 stepper motor with ULN2003 driver board module using an HR-S04 ultrasonic distance sensor.
 
 ## Connecting HC-SR04 to the Raspberry Pi
 1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows:
