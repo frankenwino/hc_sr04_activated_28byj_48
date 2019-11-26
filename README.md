@@ -1,7 +1,7 @@
 # hc_sr04_activated_28byj_48
-Activates 2BYJ-48 stepper motor with ULN2003A driver board module using an HR-SR04 ultrasonic distance sensor. 
+Activates 2BYJ-48 stepper motor with ULN2003A driver board module using an HC-SR04 ultrasonic distance sensor. 
 
-I use the stepper motor with a metal arm attached to press a button on a smoke machine when someone is detected by the HR-SR04 sensor.
+I use the stepper motor with a metal arm attached to press a button on a smoke machine when someone is detected by the HC-SR04 sensor.
 
 ## Connecting the 28BJY-48 motor with ULN2003A to the Raspberry Pi
 On the ULN2003A board, connect:
