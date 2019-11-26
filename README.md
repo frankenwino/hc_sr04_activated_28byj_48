@@ -4,6 +4,7 @@ Activates 28BYJ-48 stepper motor with ULN2003A driver board module using an HC-S
 I use the stepper motor with a metal arm attached to press a button on a smoke machine when someone is detected by the HC-SR04 sensor.
 
 ## Connecting the 28BJY-48 motor with ULN2003A to the Raspberry Pi
+**Credits: [custom-build-robots](https://github.com/custom-build-robots/Stepper-motor-28BYJ-48-Raspberry-Pi/commit/d8f6b5f3ee4d6b22d3fe40d81d0be09287c97c89)**
 On the ULN2003A board, connect:
 - IN1 to GPIO 6
 - IN2 to GPIO 13
