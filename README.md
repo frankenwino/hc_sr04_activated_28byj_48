@@ -21,13 +21,13 @@ On the ULN2003A board, connect:
    - Yellow -> Echo
    - Black -> Gnd
 
-2. Plug **Vcc** into the positive rail of your breadboard, and plug GND into your negative rail.
+2. Plug **Vcc** into the positive rail of your breadboard, and plug **Gnd** into the negative rail.
 
 3. Plug GPIO 5V [Pin 2] into the positive rail, and GPIO GND [Pin 6] into the negative rail.
 
 ![Alt text](https://github.com/frankenwino/hc_sr04_activated_28byj_48/raw/master/hc_sr04_activated_28byj_48/images/3.%20hc-sr04-tut-4_1024x1024.jpg)
 
-4. Plug **Trig** into a blank rail, and plug that rail into GPIO 23 [Pin 16]. (You can plug **Trig** directly into GPIO 23 if you want).
+4. Plug **Trig** into a blank rail and plug that rail into GPIO 23 [Pin 16]. (*You can plug **Trig** directly into GPIO 23 if you want*).
 
 ![Alt text](https://github.com/frankenwino/hc_sr04_activated_28byj_48/raw/master/hc_sr04_activated_28byj_48/images/4.%20hc-sr04-tut-5_1024x1024.jpg)
 
@@ -39,6 +39,6 @@ On the ULN2003A board, connect:
 
 7. Add GPIO 24 [Pin 18] to the rail with your R1 (1kΩ resistor). This GPIO pin needs to sit between R1 and R2
 
-That's it! The HC-SR04 sensor is connected to our Raspberry Pi!
-
 ![Alt text](https://github.com/frankenwino/hc_sr04_activated_28byj_48/raw/master/hc_sr04_activated_28byj_48/images/8.%20hc-sr04-tut-8_1024x1024.jpg)
+
+That's it! The HC-SR04 sensor is connected to the Raspberry Pi.
