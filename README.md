@@ -15,7 +15,7 @@ On the ULN2003A board, connect:
 *Hint: run **pinout** at the terminal to get a graphical representation of the Pi's GPIO pin numbering layout.*
 
 ## Connecting HC-SR04 to the Raspberry Pi
-Credit [The Pi Hut](https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi)
+**Credits: [The Pi Hut](https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi)**
 
 1. Plug four of your male to female jumper wires into the pins on the HC-SR04 as follows:
    - Red -> Vcc
