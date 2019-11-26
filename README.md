@@ -16,7 +16,7 @@ Activates 2BYJ-48 stepper motor with ULN2003 module using an HR-S04 ultrasonic d
 
 4. Plug **Trig** into a blank rail, and plug that rail into GPIO 23 [Pin 16]. (You can plug **Trig** directly into GPIO 23 if you want).
 
-[Alt text](https://github.com/frankenwino/hc_sr04_activated_28byj_48/raw/master/hc_sr04_activated_28byj_48/images/4.%20hc-sr04-tut-5_1024x1024.jpg)
+![Alt text](https://github.com/frankenwino/hc_sr04_activated_28byj_48/raw/master/hc_sr04_activated_28byj_48/images/4.%20hc-sr04-tut-5_1024x1024.jpg)
 
 5. Plug **Echo** into a blank rail, link another blank rail using a 1kΩ resistor (R1)
 
