@@ -33,8 +33,8 @@ def print_message(the_message):
     print("{} - {}".format(right_now(), the_message))
 
 
-def start_smoke_machine(total_button_presses, press_button_seconds, release_button_seconds, right_steps=200, left_steps=200):
-    print_message("Starting the smoke machine button pressing loop")
+def trigger_stepper_motor(total_button_presses, press_button_seconds, release_button_seconds, right_steps=200, left_steps=200):
+    print_message("Starting the stepper motor loop")
 
     for x in range(total_button_presses):
         # Press the smoke detector button with the stepper motor arm.
@@ -107,7 +107,7 @@ try:
 
         if distance < distance_trigger:
             print_message("Something detected {} cm away".format(distance))
-            start_smoke_machine(
+            trigger_stepper_motor(
                 total_button_presses=total_button_presses,
                 press_button_seconds=press_button_seconds,
                 release_button_seconds=release_button_seconds,
